@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lilhonesty Digital</title>
+
+    <style>
+        .contact-button {
+            display: inline-block;
+            background: #00d4ff;
+            color: #101827;
+            padding: 14px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        body {
+            background: #101827;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background: #1e293b;
+            border-radius: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 13px;
+            margin-left: 10px;
+        }
+
+        h1 {
+            color: #00d4ff;
+            text-align: center;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 10px;
+        }
+
+        .services {
+            text-align: center;
+            padding: 30px 10px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 12px;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 40px 10px;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .hero {
+                padding: 30px 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <strong>Lilhonesty Digital</strong>
+        <div>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Lilhonesty Digital</h1>
+        <p>Websites and digital solutions that work.</p>
+        <a class="contact-button" href="https://wa.me/254707416591?text=Hello%20Lilhonesty%20Digital" target="_blank">
+            Chat on WhatsApp
+        </a>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+
+        <div class="card">
+            <h3>Website Design</h3>
+            <p>Modern websites for businesses.</p>
+        </div>
+
+        <div class="card">
+            <h3>Branding</h3>
+            <p>Helping businesses build their identity.</p>
+        </div>
+
+        <div class="card">
+            <h3>Business Websites</h3>
+            <p>Professional online experiences.</p>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Let's Work Together</h2>
+        <p>Ready to take your business online?</p>
+        <a class="contact-button" href="https://wa.me/254707416591?text=Hello%20Lilhonesty%20Digital" target="_blank">
+            Chat on WhatsApp
+        </a>
+    </section>
+</body>
+</html>
